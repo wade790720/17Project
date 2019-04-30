@@ -42,4 +42,5 @@ module.exports = {
             path.resolve(__dirname, "src/")
         ],
     },
+    devtool: devMode ? "cheap-module-source-map" : "nosources-source-map"
 }
