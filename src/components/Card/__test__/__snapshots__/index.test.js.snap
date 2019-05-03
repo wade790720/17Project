@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card tests Default view 1`] = `
+<div
+  className="card"
+  index={-1}
+  onClick={[Function]}
+>
+  <img
+    className="icon"
+  />
+  <div
+    className="name"
+  >
+    
+  </div>
+  <div
+    className="price"
+  >
+    $0
+  </div>
+</div>
+`;

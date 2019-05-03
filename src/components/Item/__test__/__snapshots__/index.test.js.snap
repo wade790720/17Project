@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item tests Default view 1`] = `
+<div
+  className="item"
+>
+  <input
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Name"
+    type="text"
+  />
+  <input
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Price"
+    type="number"
+  />
+  <input
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Remark"
+    type="text"
+  />
+  <div
+    className="remove"
+    onClick={[Function]}
+  />
+</div>
+`;

@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialogs tests Default view 1`] = `
+<div
+  className="dialogs open"
+>
+  <div
+    className="dialogs-box"
+  >
+    <div
+      className="title"
+    >
+      <input
+        onChange={[Function]}
+        placeholder="Store Name"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="item"
+      >
+        <input
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Name"
+          type="text"
+          value=""
+        />
+        <input
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Price"
+          type="number"
+          value={0}
+        />
+        <input
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Remark"
+          type="text"
+          value=""
+        />
+        <div
+          className="remove"
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+    <div
+      className="action"
+    >
+      <button
+        className="btn success"
+        onClick={[Function]}
+      >
+        新增
+      </button>
+      <button
+        className="btn primary"
+        onClick={[Function]}
+      >
+        儲存
+      </button>
+      <button
+        className="btn default"
+        onClick={[Function]}
+      >
+        關閉
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dialogs tests no data view 1`] = `
+<div
+  className="dialogs open"
+>
+  <div
+    className="dialogs-box"
+  >
+    <div
+      className="title"
+    >
+      <input
+        onChange={[Function]}
+        placeholder="Store Name"
+        type="text"
+        value="abb"
+      />
+    </div>
+    <div
+      className="content"
+    />
+    <div
+      className="action"
+    >
+      <button
+        className="btn success"
+        onClick={[Function]}
+      >
+        新增
+      </button>
+      <button
+        className="btn primary"
+        onClick={[Function]}
+      >
+        儲存
+      </button>
+      <button
+        className="btn default"
+        onClick={[Function]}
+      >
+        關閉
+      </button>
+    </div>
+  </div>
+</div>
+`;
