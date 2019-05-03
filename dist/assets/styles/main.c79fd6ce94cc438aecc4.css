@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+body {
+  margin: 0;
+  font-family: "Microsoft JhengHei", Roboto, Arial, sans-serif; }
+
+html, body, #wrapper, article {
+  height: 100%;
+  overflow: hidden;
+  background: #f1f1f1; }
+
+.main-title {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+main {
+  display: flex;
+  justify-content: center; }
+
+*:focus {
+  outline: none; }
+
+input {
+  font-family: "Microsoft JhengHei", Roboto, Arial, sans-serif; }
+
+.btn {
+  background-color: #fff;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  outline: none;
+  padding: 6px 16px;
+  position: relative;
+  vertical-align: middle;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 64px;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  background-color: #e0e0e0;
+  margin: 8px;
+  font-family: "Microsoft JhengHei", Roboto, Arial, sans-serif; }
+  .btn.default {
+    color: #fff;
+    background-color: #666666; }
+  .btn.primary {
+    color: #fff;
+    background-color: #2196f3; }
+  .btn.success {
+    color: #fff;
+    background-color: #28a745; }
+  .btn.danger {
+    color: #fff;
+    background-color: #dc3545; }
+  .btn.warning {
+    color: #212529;
+    background-color: #ffc107; }
+  .btn.info {
+    color: #fff;
+    background-color: #17a2b8; }
+  .btn.btn-circle {
+    color: rgba(0, 0, 0, 0.87);
+    width: 56px;
+    height: 56px;
+    padding: 0;
+    font-size: 0.875rem;
+    min-width: 0;
+    box-sizing: border-box;
+    min-height: 36px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+    font-weight: 500;
+    border-radius: 50%;
+    background: #fff; }
+
+.card {
+  background: #fff;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302), 0 4px 8px 3px rgba(60, 64, 67, 0.149);
+  width: 600px;
+  height: 82px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer; }
+  .card .icon {
+    height: 100%;
+    transform: translateX(-25px) translateY(12px); }
+  .card .name {
+    position: absolute;
+    left: 60px;
+    top: 55%;
+    font-size: 2rem;
+    transform: translateY(-50%);
+    font-family: "Microsoft JhengHei";
+    font-weight: bolder; }
+  .card .price {
+    font-family: "Righteous", cursive;
+    position: absolute;
+    z-index: 0;
+    top: -0.25rem;
+    right: 0rem;
+    opacity: 0.4;
+    font-size: 5rem;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(-8deg); }
+
+.dialogs {
+  background-color: #e5e5e5;
+  transition: opacity 0.218s ease-in;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 4000;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: none; }
+  .dialogs.open {
+    opacity: 1;
+    display: flex; }
+
+.dialogs-box {
+  background: #fff;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302), 0 4px 8px 3px rgba(60, 64, 67, 0.149);
+  max-height: 600px;
+  min-height: 60px;
+  overflow-y: auto;
+  position: relative;
+  width: 600px;
+  z-index: 4001;
+  overflow: hidden; }
+  .dialogs-box .title {
+    padding: 10px 15px; }
+    .dialogs-box .title input {
+      width: 100%;
+      font-size: 1.375rem;
+      font-weight: 400;
+      line-height: 1.75rem;
+      border: none; }
+  .dialogs-box .content {
+    overflow-y: auto;
+    max-height: 500px; }
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px; }
+  .item.focus {
+    border-top: 1px solid #c5c5c5;
+    border-bottom: 1px solid #c5c5c5; }
+  .item:hover {
+    border-top: 1px solid #c5c5c5;
+    border-bottom: 1px solid #c5c5c5; }
+  .item.disabled input {
+    background: #fff; }
+  .item.disabled:hover {
+    border: none; }
+  .item input {
+    width: 100%;
+    border: none; }
+  .item .remove {
+    width: 50px;
+    height: 16px;
+    cursor: pointer;
+    background: url("https://img.icons8.com/material/24/666666/delete-sign.png");
+    background-size: cover; }
+    .item .remove:hover {
+      background: url("https://img.icons8.com/material/24/000000/delete-sign.png");
+      background-size: cover; }
+
+
+/*# sourceMappingURL=main.c79fd6ce94cc438aecc4.css.map*/
